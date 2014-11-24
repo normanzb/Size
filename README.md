@@ -27,8 +27,8 @@ For example, you have an `<span>` with `font-size` defined in `px`, you want to 
 
     var $container = $('the element');
     var size = Size.parse($container.css('font-size'));
-    size.measurer($container).to('px');
+    size.measurer($container).to('em');
 
-    
+
     
 
