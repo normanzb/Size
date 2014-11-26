@@ -21,9 +21,9 @@ Parse unit string
 Convert one unit to the other unit
 ----------------------------------
 
-Because the visual size may be varied even when the unit and value are the same (depend on which dom element it is applied to). Converting unit requires you to pass in a dom element as a reference.
+Because the visual size can be different even when the unit and value are the same, converting unit requires you to pass in a dom element as a reference.
 
-For example, you have an `<span>` with `font-size` defined in `px`, you want to know how much is for `em`:
+For example, you have an `<span>` with `font-size` defined in `px`, you want to know how many is for `em`:
 
     var $container = $('the element');
     var size = Size.parse($container.css('font-size'));
