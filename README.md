@@ -7,7 +7,7 @@ Usage
 
 Size is packed as AMD module by default, so if you have AMD loader enabled in your environment you will be able to load it with a simple `require(['path to Size'])` call.
 
-If you happen to be no AMD loader enabled, then you may want to embed a small piece of amd shim (https://github.com/normanzb/amdshim) or simply copy paste the code as it is fairly small.
+If there happen to be no AMD loader, then you may want to embed a small piece of amd shim (https://github.com/normanzb/amdshim) or simply copy paste the code as it is fairly small.
 
 API
 ===
